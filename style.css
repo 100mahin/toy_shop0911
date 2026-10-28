@@ -1,0 +1,51 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8e7;
+    text-align: center;
+  }
+  
+  header {
+    background: #ff7b54;
+    color: white;
+    padding: 25px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 35px 15px;
+  }
+  
+  .toy {
+    background: white;
+    width: 230px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #ddd;
+  }
+  
+  .emoji {
+    font-size: 70px;
+  }
+  
+  button {
+    background: #22a699;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #168579;
+  }
+  
